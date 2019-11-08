@@ -35,22 +35,16 @@ end
 
 def long_planeteer_calls(call_duration)# code an argument here
   # Your code here
-
   true_or_false = false
   i = 0
- #uppercase each element
-
-  until i == call_duration.length do
-
-    if call_duration[i].length > 4
+  
+    if call_duration.any? {|i| i.length > 4}
 
       true_or_false = true
-
+    else 
+       true_or_false = false
+       i += 1
     end
-
-    i += 1
-
-  end
 
   p true_or_false
 
