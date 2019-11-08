@@ -60,6 +60,7 @@ def find_the_cheese(is_there_cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
+  cheese_found = nil 
   i = 0
 
   until i == is_there_cheese.length do
@@ -69,5 +70,6 @@ def find_the_cheese(is_there_cheese)# code an argument here
     
   end
 
+ p cheese_found
 
 end
