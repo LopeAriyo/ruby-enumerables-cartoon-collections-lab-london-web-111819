@@ -1,6 +1,13 @@
 def roll_call_dwarves (dwarves)# code an argument here
   # Your code here
 
+  i = 0 
+
+  until i == dwarves.length
+    p "#{i+1}. #{dwarves[i]}"
+    i+=1
+  end
+
   p dwarves
 end
 
