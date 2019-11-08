@@ -46,7 +46,7 @@ def long_planeteer_calls(call_duration)# code an argument here
 
       true_or_false
 
-    end 
+    end
 
     i += 1
 
