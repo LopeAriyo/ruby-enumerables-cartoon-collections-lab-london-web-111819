@@ -41,7 +41,7 @@ def long_planeteer_calls(call_duration)# code an argument here
     if call_duration.any? {|i| i.length > 4}
 
       true_or_false = true
-    else 
+    else
        true_or_false = false
        i += 1
     end
