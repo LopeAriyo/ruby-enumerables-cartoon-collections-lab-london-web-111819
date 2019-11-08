@@ -54,7 +54,7 @@ def long_planeteer_calls(call_duration)# code an argument here
   end
 
   p true_or_false
-  
+
 end
 
 def find_the_cheese# code an argument here
