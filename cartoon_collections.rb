@@ -21,7 +21,7 @@ def summon_captain_planet(boring_food)# code an argument here
 
   until i == boring_food.length do
 
-    new_food = boring_food[i].sub(boring_food[i][0],boring_food[i][0].uppercase)
+    new_food = boring_food[i].sub(boring_food[i][0],boring_food[i][0].upcase)
     exciting_food.push("#{new_food}!")
 
   end
