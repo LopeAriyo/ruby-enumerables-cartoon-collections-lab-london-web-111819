@@ -60,13 +60,11 @@ def find_the_cheese(is_there_cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_found = nil
   i = 0
 
   is_there_cheese.find do |type|
     cheese_types.include?(type)
   end
 
-# p cheese_found
 
 end
