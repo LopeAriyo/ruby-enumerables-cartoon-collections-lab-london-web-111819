@@ -63,13 +63,10 @@ def find_the_cheese(is_there_cheese)# code an argument here
   cheese_found = nil
   i = 0
 
-  until i == is_there_cheese.length do
-
-    
-    i+=1
-
+  is_there_cheese.find do |type|
+    cheese_types.include?(type)
   end
 
- p cheese_found
+# p cheese_found
 
 end
