@@ -1,14 +1,15 @@
 def roll_call_dwarves (dwarves)# code an argument here
   # Your code here
 
+  roll_call = ""
   i = 0
 
   until i == dwarves.length
-    p "#{i+1}. #{dwarves[i]}"
+    roll_call =  "#{i+1}. #{dwarves[i]}"
+    p roll_call
     i+=1
   end
 
-  p dwarves
 end
 
 def summon_captain_planet# code an argument here
