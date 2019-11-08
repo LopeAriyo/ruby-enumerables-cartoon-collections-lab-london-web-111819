@@ -13,10 +13,10 @@ def roll_call_dwarves (dwarves)# code an argument here
 end
 
 def summon_captain_planet(food)# code an argument here
-  new_array = []
+  #new_array = []
  #uppercase each elemcent
 
-  p new_array
+  #p new_array
 
 end
 
