@@ -15,9 +15,9 @@ end
 def summon_captain_planet# code an argument here
   array []
  #uppercase each elemcent 
- 
+
   array[]
-  
+
 end
 
 def long_planeteer_calls# code an argument here
