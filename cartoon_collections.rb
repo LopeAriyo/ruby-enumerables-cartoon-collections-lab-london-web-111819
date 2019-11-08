@@ -44,7 +44,11 @@ def long_planeteer_calls(call_duration)# code an argument here
 
     if call_duration[i].length > 4
 
-      true_or_false
+      true_or_false = true
+
+    elsif call_duration[i].length <= 4
+      
+      true_or_false = false
 
     end
 
