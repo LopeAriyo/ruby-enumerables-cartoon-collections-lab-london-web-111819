@@ -46,9 +46,6 @@ def long_planeteer_calls(call_duration)# code an argument here
 
       true_or_false = true
 
-    elsif call_duration[i].length <= 4
-      
-      true_or_false = false
 
     end
 
@@ -57,7 +54,7 @@ def long_planeteer_calls(call_duration)# code an argument here
   end
 
   p true_or_false
-  s
+  
 end
 
 def find_the_cheese# code an argument here
