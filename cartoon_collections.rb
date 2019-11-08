@@ -33,8 +33,27 @@ def summon_captain_planet(boring_food)# code an argument here
 
 end
 
-def long_planeteer_calls(call_length)# code an argument here
+def long_planeteer_calls(call_duration)# code an argument here
   # Your code here
+
+  true_or_false = false
+  i = 0
+ #uppercase each element
+
+  until i == call_duration.length do
+
+    if call_duration[i].length > 4
+
+      true_or_false
+
+    end 
+
+    i += 1
+
+  end
+
+  p true_or_false
+  s
 end
 
 def find_the_cheese# code an argument here
